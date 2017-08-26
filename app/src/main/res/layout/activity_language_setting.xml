@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zx.languagechange.LanguageSettingActivity">
+
+
+    <RadioGroup
+        android:id="@+id/language_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/auto_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跟随系统" />
+
+        <RadioButton
+            android:id="@+id/zh_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中文" />
+
+        <RadioButton
+            android:id="@+id/multi_zh_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中文繁体" />
+
+        <RadioButton
+            android:id="@+id/en_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英文" />
+
+    </RadioGroup>
+
+</LinearLayout>

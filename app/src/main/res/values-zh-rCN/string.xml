@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">多语言</string>
+    <string name="user_name">用户名</string>
+    <string name="pwd">密码</string>
+    <string name="submit">提交</string>
+</resources>
